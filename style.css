@@ -1,0 +1,648 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*<========== main css / allstyle ==========>*/
+
+.container {
+	max-width: 960px;
+	margin: 0 auto
+}
+
+.container-s {
+	max-width: 620px;
+	margin: 0 auto
+}
+
+
+.home-banner {
+	background-image: url(img/bg.png);
+}
+
+.course-banner {
+	background-image: url(img/course-bg.png);
+}
+
+.home-banner {
+	background-image: url(img/bg.png);
+}
+
+.faq-banner {
+	background-image: url(img/faq-bg.png);
+}
+
+.head {
+	background-color: #4a4a4a;
+	height: 76px;
+	width: auto;
+}
+
+.head h1 a {
+	background-image: url(img/header_logo.png);
+    width: 170px;
+    height: 36px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    margin-top: 20px;
+}
+
+.menu {
+	float: right;
+	margin: 30px;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.menu li a:hover {
+	color: #00cc99;
+	border-bottom: 7px solid #00cc99;
+	padding-bottom: 20px;
+}
+
+.banner {
+	height: 485px;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner h2 {
+	font-size: 48px;
+    color: #00cc99;
+    padding-top: 110px;
+    line-height: 4rem;
+    font-weight: 500;
+}
+
+.banner h2 span {
+	color: #fff;
+}
+
+.banner button {
+	margin-top: 60px;
+    padding: 18px 38px;
+    background-color: #00cc99;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner .fa-arrow-right {
+	margin-left: 30px;
+}
+
+.showmenu {
+	display: none;
+}
+
+/*<========== main css / home-content ==========>*/
+
+.content {
+	padding: 60px 20px;
+}
+
+.content .title h2 {
+	font-size: 36px;
+	color: #00cc99;
+	float: left;
+}
+
+.content .title {
+	height: 40px;
+}
+
+
+.course .title button {
+	float: right;
+	font-size: 15px;
+	padding: 8px 15px;
+	border: #00cc99 solid 2px;
+	border-radius: 5px;
+	float: right;
+}
+
+.content .title span {
+	font-size: 20px;
+	color: #9b9b9b;
+}
+
+.course .couses_list {
+	clear: both;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.course_detail {
+    width: 28%;
+    padding: 25px 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.course_detail h3 {
+	margin-top: 15px;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+
+.course_detail p {
+	margin-top: 15px;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+
+.compare {
+	margin: 60px 0;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.compare span {
+	color: #00cc99;
+}
+
+.compare table {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.compare table td {
+	border-bottom: 1px solid #ebebeb;
+    padding: 16px 0;
+}
+
+.compare table tr:nth-child(1) {
+	background-color: #ebebeb;
+}
+
+/*<========== main css / home-contact ==========>*/
+
+.contact {
+	background-color: #ebebeb;
+	padding: 140px 20px 60px;
+	height: 200px;
+}
+
+.contact p {
+	font-size: 30px;
+    line-height: 3rem;
+    font-weight: 500;
+    float: left;
+}
+
+.contact form {
+	float: right;
+}
+
+.contact form input, textarea {
+	display: block;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: none;
+    width: 300px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #9b9b9b;
+}
+
+.contact form button {
+	background-color: #00cc99;
+    padding: 6px 15px 6px 25px;
+    border-radius: 5px;
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+
+/*<========== main css / footer ==========>*/
+
+.footer {
+	background-color: #323228;
+	height: 132px;
+}
+
+.footer .logo {
+	position: relative;
+}
+
+.logo h1 a {
+	background-image: url(img/header_logo.png);
+    width: 170px;
+    height: 36px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    margin-top: 40px;
+}
+
+.logo p {
+	position: absolute;
+    top: 90px;
+    color: #9b9b9b;
+}
+
+.footer .icon {
+	float: right;
+}
+
+.footer .icon li {
+	float: left;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.footer .icon li:nth-child(1) {
+	padding: 15px 19px;
+}
+
+.footer .icon a {
+	color: #323228;
+}
+
+/*<========== main css / course-head ==========>*/
+
+.course-banner h4 {
+	color: #00cc99;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.course-banner .info {
+	float: left;
+}
+
+.course-banner .icons {
+	float: right;
+	margin-top: 40px;
+}
+
+.course-banner .icons .icon {
+	float: left;
+	margin-left: 30px;
+}
+
+/*<========== main css / course-content ==========>*/
+
+.teacher {
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.teacher .pic {
+	width: 250px;
+}
+
+.teacher .name {
+	flex: 1;
+}
+
+.teacher .name h2 {
+	font-size: 36px;
+    color: #000;
+    line-height: 4rem;
+}
+
+.teacher .name h2 span {
+	color: #00cc99;
+}
+
+.teacher .experience {
+	flex: 1;
+}
+
+.teacher .experience li {
+	font-size: 16px;
+    line-height: 2rem;
+    color: #9b9b9b;
+    list-style: initial;
+}
+
+.specail {
+	margin-bottom: 60px;
+}
+
+.specail ol {
+	margin-top: 30px;
+    margin-left: 20px;
+    line-height: 2rem;
+    list-style: decimal;
+}
+
+.outline {
+	margin-bottom: 60px;
+}
+
+.outline table {
+	margin-top: 30px;
+	width: 100%;
+	font-weight: 500;
+}
+
+.outline table td {
+	padding: 20px 0 20px 20px;
+}
+
+.outline table tr:nth-child(odd) {
+	background-color: #ebebeb;
+}
+
+.outline table tr:nth-child(even) {
+	color: #9b9b9b;
+}
+
+.contact button {
+	margin: 30px 0 0 60px;
+    padding: 18px 38px;
+    background-color: #00cc99;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*<========== main css / faq-head ==========>*/
+
+.faq-banner {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-banner h4 {
+	color: #00cc99;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.faq-banner .info {
+	text-align: center;
+}
+
+.faq-banner .search {
+	position: relative;
+}
+
+.faq-banner .search input {
+	display: block;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-style: none;
+    width: 500px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #ebebeb;
+}
+
+.faq-banner .search button {
+	border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+/*<========== main css / faq-content ==========>*/
+
+.faq-list .title {
+	margin-bottom: 30px;
+}
+
+.faq-list a {
+	text-decoration: none;
+	color: #00cc99;
+}
+
+.faq, .pay, .refound {
+	margin-bottom: 60px;
+}
+
+.faq-list .question {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.faq-list .answer {
+	color: #9b9b9b;
+	margin-bottom: 25px;
+	line-height: 1.5rem;
+}
+
+.pay ul.answer {
+    padding-left: 20px;
+}
+
+.refound ul.answer {
+	padding-left: 40px;
+    list-style: initial;
+}
+
+.notice {
+	margin-bottom: 25px;
+}
+
+/*<========== main css / faq-contact ==========>*/
+
+.faq-contact {
+	height: 400px;
+}
+
+.contact form textarea {
+	height: 200px;
+	padding: 15px 0 0 20px;
+	margin-bottom: 0;
+}
+
+/*<========== main css / RWD ==========>*/
+
+@media (max-width: 768px) {
+	.couses_list {
+		flex-direction: column;
+	}
+
+	.course_detail {
+		width: 100%;
+		box-sizing: border-box;
+		margin-bottom: 30px;
+	}
+
+	.home-contact form {
+    	float: left;
+    	margin-top: 30px;
+	}
+
+	.home-contact {
+    	height: 400px;
+	}
+
+	.course-contact button {
+		margin: 30px 0;
+	}
+
+	.faq-contact {
+    	height: 600px;
+	}
+
+	.faq-contact form{
+    	float: left;
+    	margin: 30px 0;
+	}
+
+	.course-banner .icons {
+		display: none;
+	}
+
+	.teacher {
+		flex-direction: column;
+    	text-align: center;
+	}
+
+	.teacher .pic {
+    	width: auto;
+	}
+
+	.teacher .experience li {
+		list-style: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.banner h2 {
+		font-size: 36px;
+	}
+
+	.menu {
+		max-height: 0;
+	    overflow: hidden;
+	    position: absolute;
+	    top: 76px;
+	    margin-top: 0;
+	    background-color: #4a4a4a;
+	    width: 100%;
+	    text-align: center;
+	    transition: 0.5s;
+	}
+
+	.menu li {
+		float: none;
+    	padding: 20px 0;
+    	border-bottom: 1px solid rgba(255,255,255,0.1);
+	}
+
+	.menu li a {
+		margin-left: 0;
+	}
+
+	.menu li a:hover {
+    	border-bottom: none;
+	}
+
+	.showmenu {
+		display: block;
+	    position: absolute;
+	    right: 20px;
+	    top: 17px;
+	    border: 1px solid #fff;
+	    padding: 10px 10px 5px;
+	    border-radius: 5px;
+	    color: #fff;
+	}
+
+	.showmenu .line {
+		width: 18px;
+    	border-bottom: 3px solid #fff;
+    	margin-bottom: 5px;
+	}
+
+	.menu-show .menu {
+		max-height: 171px;
+	}
+
+	.faq-banner .search input {
+    	width: 300px;
+	}
+
+	.faq-banner .search button {
+		right: 50px;
+	}
+
+	.footer {
+		height: 200px;	
+	}
+
+	.footer .icon {
+		float: left;
+	}
+}
